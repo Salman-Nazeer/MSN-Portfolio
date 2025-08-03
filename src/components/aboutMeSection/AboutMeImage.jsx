@@ -25,7 +25,7 @@ const AboutMeImage = () => {
     <div className="relative h-[400px] w-[260px] sm:h-[450px] sm:w-[280px] md:h-[500px] md:w-[300px]">
       <div className="h-full w-full rounded-[100px] absolute overflow-hidden">
         <img
-          src="../../public/images/about-me.jpg"
+          src="/images/about-me.jpg"
           alt="About Me Image"
           className="h-full w-full object-cover"
         />

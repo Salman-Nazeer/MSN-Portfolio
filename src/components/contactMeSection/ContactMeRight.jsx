@@ -31,7 +31,7 @@ const ContactMeRight = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-10 w-full lg:max-w-[500px]">
       <img
-        src="../../public/images/email-image.png"
+        src="/images/email-image.png"
         alt="email image"
         className="w-full max-w-[300px] sm:max-w-[350px] object-contain"
       />
