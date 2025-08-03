@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import { useDispatch } from "react-redux";
+import { closeMenu } from "../../state/menuSlice";
 
 const links = [
   { link: "About Me", section: "about" },
@@ -9,6 +11,11 @@ const links = [
 ];
 
 const NavbarLinks = () => {
+  const dispatch = useDispatch();
+
+  const handleLinkClick = () => {
+    dispatch(closeMenu()); // ✅ Close the mobile menu
+  };
   return (
     <ul
       className="
@@ -29,6 +36,7 @@ const NavbarLinks = () => {
         <li key={index} className="group w-full lg:w-auto">
           <Link
             spy={true}
+            onClick={handleLinkClick} // ✅ Trigger close on click
             smooth={true}
             duration={500}
             offset={-130}
