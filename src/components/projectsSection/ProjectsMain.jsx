@@ -8,7 +8,7 @@ const projects = [
     name: "E-ShopMart - A Full-Stack E-Commerce",
     year: "Mar2022",
     align: "right",
-    image: "../../public/images/full-stack.png",
+    image: "/images/full-stack.png",
     link: "https://e-shopmart.vercel.app",
   },
   {
