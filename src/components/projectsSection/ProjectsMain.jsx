@@ -22,7 +22,7 @@ const projects = [
     name: "Futuristic AI-Powered Web App",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/GPT-AI.png",
+    image: "../../public/images/gpt-ai.png",
     link: "https://gpt-3-77d64.web.app",
   },
   {
