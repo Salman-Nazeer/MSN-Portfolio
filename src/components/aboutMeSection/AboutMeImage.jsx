@@ -1,6 +1,6 @@
 const AboutMeImage = () => {
   return (
-    <div className="relative h-[400px] w-[260px] sm:h-[450px] sm:w-[280px] md:h-[500px] md:w-[300px]">
+    <div className="hidden md:block relative h-[400px] w-[260px] sm:h-[450px] sm:w-[280px] md:h-[500px] md:w-[300px]">
       <div className="h-full w-full rounded-[100px] absolute overflow-hidden">
         <img
           src="/images/about-me.jpg"

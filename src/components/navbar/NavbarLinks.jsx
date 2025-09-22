@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { useDispatch } from "react-redux";
 import { closeMenu } from "../../state/menuSlice";
+import HeroGradient from "../heroSection/HeroGradient";
 
 const links = [
   { link: "About Me", section: "about" },
@@ -19,18 +20,18 @@ const NavbarLinks = () => {
   return (
     <ul
       className="
-      
-        flex flex-col lg:flex-row
-        gap-4 lg:gap-6
-        text-white font-body
-        items-center justify-center
-        lg:static lg:bg-black lg:py-0
-        bg-cyan/30 backdrop-blur-lg py-4 w-full
-        rounded-b-xl
-        text-lg lg:text-md
-        transition-all duration-300
-      "
+    flex flex-col lg:flex-row
+    gap-4 lg:gap-6
+    text-white font-body
+    items-center justify-center
+    lg:static lg:bg-black lg:py-0
+    backdrop-blur-lg py-4 w-full
+    rounded-b-xl
+    text-lg lg:text-md
+    transition-all duration-300
+    "
     >
+      <HeroGradient />
       {/* Map through links array and render each link */}
       {links.map((link, index) => (
         <li key={index} className="group w-full lg:w-auto">

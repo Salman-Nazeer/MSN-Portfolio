@@ -7,7 +7,7 @@ const AboutMeMain = () => {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse lg:flex-row gap-12 px-4 max-w-[1200px] mx-auto mt-24 items-center"
+      className="flex flex-col-reverse md:flex-row gap-12 px-4 max-w-[1200px] mx-auto mt-24 items-center"
     >
       <motion.div
         variants={fadeIn("right", 0)}
